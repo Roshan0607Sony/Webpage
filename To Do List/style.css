@@ -1,0 +1,54 @@
+
+
+
+body {
+    background-color: rgb(183, 255, 211);
+}
+
+.head {
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+    margin-top: 20px;
+}
+
+.input1 input {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+.button button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ToDo{
+    font-size: 30px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px; 
+    padding: 4px 8px;
+    background-color: rgb(183, 255, 211); 
+    border-radius: 5px; 
+}
+
+.task label {
+    flex-grow: 1;
+}
+
+.task input[type="checkbox"] {
+    margin-left: 10px; 
+    transform: scale(1.2); 
+}
